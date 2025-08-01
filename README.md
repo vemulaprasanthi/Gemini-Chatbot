@@ -28,19 +28,19 @@ A modern, interactive chatbot powered by **Google Gemini API**, built using **Re
 
 ### 💻 Desktop UI
 
-![Chat UI](assets/UI.png)
+![Chat UI](https://github.com/vemulaprasanthi/Gemini-Chatbot/blob/main/src/assets/ui.png?raw=true)
 
 ### 📁 Sidebar & Chat Management
 
-![Sidebar](assets/2.png)
+![Sidebar](https://github.com/vemulaprasanthi/Gemini-Chatbot/blob/main/src/assets/2.png?raw=true)
 
 ### 📝 Message Editing / Upload
 
-![Editing Message](assets/3.png)
+![Editing Message](https://github.com/vemulaprasanthi/Gemini-Chatbot/blob/main/src/assets/3.png?raw=true)
 
 ### 📱 Mobile View
 
-![Mobile View](assets/4.png)
+![Mobile View](https://github.com/vemulaprasanthi/Gemini-Chatbot/blob/main/src/assets/4.png?raw=true)
 
 ---
 
