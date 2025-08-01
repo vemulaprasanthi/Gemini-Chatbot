@@ -42,7 +42,7 @@ const App = () => {
     setInput("");
 
     try {
-      const response = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBRHTBXsWyP0D24TqYbsYb1zRy-iSOUs6c", {
+      const response = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=put your key", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
