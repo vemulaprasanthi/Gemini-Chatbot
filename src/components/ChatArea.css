@@ -1,0 +1,132 @@
+.chat-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #0d1117;
+  color: white;
+  overflow-y: auto;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.message.user {
+  align-self: flex-end;
+  background-color: #1e90ff;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.message.bot {
+  align-self: flex-start;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.message-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+
+.edit-btn {
+  background: none;
+  border: none;
+  color: white;
+  margin-left: 0.9rem;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+.file-message {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.input-area input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  background-color: #111;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.input-area input[type="text"]:focus {
+  outline: none;
+}
+
+.file-upload {
+  margin-right: 0.5rem;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+
+.send-btn {
+  background-color: #3b82f6;
+  border: none;
+  padding: 10px 16px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.message-wrapper {
+  position: relative;
+}
+
+.message-actions {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  display: none;
+  gap: 8px;
+}
+
+.message-wrapper:hover .message-actions {
+  display: flex;
+}
+
+.message-actions button {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.message-actions button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
