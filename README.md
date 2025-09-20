@@ -3,12 +3,6 @@
 
 A modern, interactive chatbot powered by **Google Gemini API**, built using **React + Vite**. This chatbot supports real-time conversations, chat history, message editing, file uploads, and a sleek UI that mimics ChatGPT. Fully responsive and deployable to Netlify or mobile apps via Capacitor.
 
-## 🌐 Live Demo
-
-👉 [Visit on Netlify](https://688c77129c083ed516af0a3c--jade-bavarois-8f1a29.netlify.app/)  
-
----
-
 ## ✨ Features
 
 - 💬 Chat with Gemini API (real answers from Google Gemini)
